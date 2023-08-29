@@ -205,8 +205,31 @@ main section {
 /* footer styles */
 footer {
   display: flex;
-  background-color: #FFF8F3;
+  background-color: #fff8f3;
   margin-top: 150px;
   padding: 130px 230px;
-  
+  gap: 100px;
+}
+
+.footer-column {
+  width: 50%;
+}
+
+.social-link a {
+  margin-right: 24px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+  border: 0px;
+  border-radius: 5px;
+  background: #fff;
+  width: 100%;
 }
